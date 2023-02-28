@@ -1,0 +1,85 @@
+*{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    max-width: 98vw;
+}
+.user-container {
+    min-width:350px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+
+.main-container1 {
+    padding:5px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    justify-content: space-evenly;
+    max-width: 95vw;
+    background: linear-gradient(to bottom, lightgrey,white,lightgrey,white,grey);
+   
+}
+
+.specificBookPriceMain {
+    width: 300px;
+    border:1px dotted gray;
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+.aboutBook {
+    width:500px;
+}
+
+.specificButtonAdd {
+    max-width: 60px;
+    height: 30px;
+    margin:5px;
+    float:right;
+    background: linear-gradient(grey,pink);
+    border-radius: 5px;
+}
+.inputNumber {
+    max-width: 30px;
+    margin-left:10px;
+    float:right;
+}
+.specificCount{
+    max-height: 10px;
+    margin: 0;
+    font-size:12px ;
+}
+
+.footer {
+    position: relative;
+    
+    background-color:burlywood;
+    min-height: 60px;
+    border-radius: 5px;
+}
+.button1 {
+    width:80px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.specificBookPrice, .countNbutton, .specificTotalPrice{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imageBook{
+    border-radius:5px;
+}

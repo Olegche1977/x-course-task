@@ -1,0 +1,48 @@
+.signInContainer {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
+}
+
+.signInUserFoto {
+    max-width: 50px;
+    max-height: 50px;
+}
+.signInUserName {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90vw;
+}
+.buttonSignIn {
+    width:90vw;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+.buttonSignIn1 {
+    width:90vw;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+
+
+@media screen and (min-width: 350px) {
+    .signInUserName {
+         width: 50vw;
+    }
+    .buttonSignIn {
+        width:50vw;
+      
+    }
+    .buttonSignIn1 {
+        width:50vw;
+      
+    }
+    .signInUserFoto {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}

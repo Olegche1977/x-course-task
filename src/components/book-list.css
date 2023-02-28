@@ -1,0 +1,105 @@
+body * {
+    box-sizing: border-box;
+}
+.aboutBook {
+    width:500px;
+   
+}
+
+.buttonAdd {
+    margin:10px;
+    float:right;
+}
+.inputNumber {
+    margin-left:10px;
+    float:right;
+}
+.footer {
+    position: relative;
+    
+    background-color:burlywood;
+    min-height: 60px;
+    border-radius: 5px;
+}
+.button1 {
+    width:80px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.myBooks {
+    width: 310px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(grey, burlywood);
+    
+}
+.myBooksImage {
+    margin:5px;
+    max-width:250px;
+    min-height: 330px;
+    border:1px dotted black;
+    border-radius: 10px;
+    align-self: center;
+}
+.priceString {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;  
+    margin-bottom: 5px;
+}
+.bookPriceView {
+    width: 70px;
+    min-height: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    background: linear-gradient(grey,pink);
+
+}
+.bookPriceView1 {
+    width: 70px;
+    min-height: 40px;
+
+}
+
+
+.bookNameInMyBooks, .bookAuthorInMyBooks {
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;
+    display: flex;
+    justify-content:flex-start;
+} 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.selectBookList {
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.inputBookList {
+    font-style: Roboto;
+    max-width: 50vh ;
+    margin:5px;
+    font-size:20px ;
+}
+.inputBookList1 {
+    font-style: Roboto;
+    max-width: 50vh ;
+    margin:5px;
+    font-size:20px ;
+}
+.errorBooks{
+    text-align: center;
+    color:red;
+}
