@@ -1,77 +1,75 @@
-*{
-    font-size: 10px;
-    font-family: sans-serif;
+* {
+  font-size: 10px;
+  font-family: sans-serif;
 }
-
 
 @media screen and (max-width: 500px) {
-    .headerUserContainer {
-        justify-content: center;
-        flex-wrap: wrap;
-        
-    }
-    
+  .headerUserContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 .headerClass {
-    position:relative;
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(45deg, grey, lightgrey, grey,lightgrey,grey);
-    min-height: 70px;
-    border-radius: 20px;
-    width: 98vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(45deg, grey, lightgrey, grey, lightgrey, grey);
+  min-height: 70px;
+  border-radius: 20px;
+  width: 98vw;
 }
 
 .headerAuthor {
-    font-size: 2em;
-    border-radius: 10px;
-    margin-left:20px
+  font-size: 2em;
+  border-radius: 10px;
+  margin-left: 20px;
 }
-
-
 
 .headerClassHr1 {
-    padding:10px;
-    border: 1px solid white;
-    border-top-color:transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 .headerClassHr2 {
-    padding:10px;
-    border: 1px solid white;
-    border-bottom-color:transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 .headerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 10px;
-    max-width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  max-width: 98%;
 }
 .headerUserContainer {
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    margin-right: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  margin-right: 5px;
 }
 
 .headerButton1 {
-    width:80px;
-    height:50px;
-    margin-top: 12px;
-    margin-right: 3px;
-    border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  margin-top: 12px;
+  margin-right: 3px;
+  border-radius: 5px;
 }
 .headerUserName {
-    margin-top: 8%;
+  margin-top: 8%;
 }
-.headerImageCart{
-    margin-right: 3px;
+.headerImageCart {
+  margin-right: 3px;
 }
-.headerImageUserName{
-    margin-right: 3px;
-    margin-left: 3px;
+.headerImageCart:hover {
+  cursor: pointer;
+}
+.headerImageUserName {
+  margin-right: 3px;
+  margin-left: 3px;
 }
